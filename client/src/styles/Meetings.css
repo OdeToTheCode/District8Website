@@ -1,0 +1,16 @@
+.meeting-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.meeting-list {
+  list-style: none;
+  padding: 0;
+}
+
+.meeting-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}

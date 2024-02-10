@@ -1,0 +1,21 @@
+{
+  "name": "district8-aa-server",
+  "version": "1.0.0",
+  "description": "Backend server for District8 AA website",
+  "proxy": "http://localhost:3001",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "seed": "node scripts/dummyData.js",
+    "deleteSeed": "node scripts/deleteData.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.4"
+  }
+}

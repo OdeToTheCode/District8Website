@@ -1,0 +1,53 @@
+.events-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.events-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.events-list {
+  list-style: none;
+  padding: 0;
+}
+
+.event-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.event-title {
+  font-weight: bold;
+}
+
+.event-date {
+  font-style: italic;
+}
+
+@media only screen and (max-width: 768px) {
+  .events-container {
+    padding: 10px;
+  }
+
+  .events-heading {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .event-item {
+    padding: 8px 0;
+  }
+
+  .event-title {
+    font-size: 18px;
+  }
+
+  .event-date {
+    font-size: 14px;
+  }
+}

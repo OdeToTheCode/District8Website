@@ -1,0 +1,16 @@
+.district-meetings-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.district-meetings-list {
+  list-style: none;
+  padding: 0;
+}
+
+.district-meeting-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
